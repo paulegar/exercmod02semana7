@@ -1,0 +1,6 @@
+13-04-2023 21:38:08.138 | 165  | [main] | INFO  | c.a.exercicio.ExercicioApplication - iniciando servidor
+13-04-2023 21:38:08.254 | 281  | [main] | INFO  | c.a.exercicio.ExercicioApplication - Starting ExercicioApplication using Java 19.0.2 with PID 12244 (/Users/elder/Documents/Santinho/spring/exercicio/out/artifacts/exercicio_jar/exercicio.jar started by elder in /Users/elder/Documents/Santinho/spring/exercicio/out/artifacts/exercicio_jar)
+13-04-2023 21:38:08.255 | 282  | [main] | INFO  | c.a.exercicio.ExercicioApplication - No active profile set, falling back to 1 default profile: "default"
+13-04-2023 21:41:25.956 | 147  | [main] | INFO  | c.a.exercicio.ExercicioApplication - iniciando servidor
+13-04-2023 21:41:26.065 | 256  | [main] | INFO  | c.a.exercicio.ExercicioApplication - Starting ExercicioApplication using Java 19.0.2 with PID 12590 (/Users/elder/Documents/Santinho/spring/exercicio/out/artifacts/exercicio_jar/exercicio.jar started by elder in /Users/elder/Documents/Santinho/spring/exercicio/out/artifacts/exercicio_jar)
+13-04-2023 21:41:26.066 | 257  | [main] | INFO  | c.a.exercicio.ExercicioApplication - No active profile set, falling back to 1 default profile: "default"

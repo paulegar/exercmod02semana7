@@ -1,0 +1,138 @@
+13-04-2023 21:38:08.138 | 165  | [main] | INFO  | c.a.exercicio.ExercicioApplication - iniciando servidor
+13-04-2023 21:38:08.254 | 281  | [main] | INFO  | c.a.exercicio.ExercicioApplication - Starting ExercicioApplication using Java 19.0.2 with PID 12244 (/Users/elder/Documents/Santinho/spring/exercicio/out/artifacts/exercicio_jar/exercicio.jar started by elder in /Users/elder/Documents/Santinho/spring/exercicio/out/artifacts/exercicio_jar)
+13-04-2023 21:38:08.255 | 282  | [main] | INFO  | c.a.exercicio.ExercicioApplication - No active profile set, falling back to 1 default profile: "default"
+13-04-2023 21:38:08.256 | 283  | [main] | DEBUG | o.s.boot.SpringApplication - Loading source class com.aulaspring.exercicio.ExercicioApplication
+13-04-2023 21:38:08.285 | 312  | [main] | DEBUG | o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2a54a73f
+13-04-2023 21:38:08.289 | 316  | [main] | DEBUG | o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+13-04-2023 21:38:08.312 | 339  | [main] | DEBUG | o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not a concrete top-level class: URL [jar:file:/Users/elder/Documents/Santinho/spring/exercicio/out/artifacts/exercicio_jar/exercicio.jar!/com/aulaspring/exercicio/repositories/TarefaRepository.class]
+13-04-2023 21:38:08.313 | 340  | [main] | DEBUG | o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not a concrete top-level class: URL [jar:file:/Users/elder/Documents/Santinho/spring/exercicio/out/artifacts/exercicio_jar/exercicio.jar!/com/aulaspring/exercicio/repositories/ClienteRepository.class]
+13-04-2023 21:38:08.313 | 340  | [main] | DEBUG | o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not a concrete top-level class: URL [jar:file:/Users/elder/Documents/Santinho/spring/exercicio/out/artifacts/exercicio_jar/exercicio.jar!/com/aulaspring/exercicio/repositories/UsuarioRepository.class]
+13-04-2023 21:38:08.323 | 350  | [main] | DEBUG | o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/Users/elder/Documents/Santinho/spring/exercicio/out/artifacts/exercicio_jar/exercicio.jar!/com/aulaspring/exercicio/controllers/UsuarioController.class]
+13-04-2023 21:38:08.323 | 350  | [main] | DEBUG | o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/Users/elder/Documents/Santinho/spring/exercicio/out/artifacts/exercicio_jar/exercicio.jar!/com/aulaspring/exercicio/controllers/ClienteController.class]
+13-04-2023 21:38:08.323 | 350  | [main] | DEBUG | o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/Users/elder/Documents/Santinho/spring/exercicio/out/artifacts/exercicio_jar/exercicio.jar!/com/aulaspring/exercicio/controllers/TarefaController.class]
+13-04-2023 21:38:08.324 | 351  | [main] | DEBUG | o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/Users/elder/Documents/Santinho/spring/exercicio/out/artifacts/exercicio_jar/exercicio.jar!/com/aulaspring/exercicio/services/TarefaService.class]
+13-04-2023 21:38:08.324 | 351  | [main] | DEBUG | o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/Users/elder/Documents/Santinho/spring/exercicio/out/artifacts/exercicio_jar/exercicio.jar!/com/aulaspring/exercicio/services/ClienteService.class]
+13-04-2023 21:38:08.324 | 351  | [main] | DEBUG | o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/Users/elder/Documents/Santinho/spring/exercicio/out/artifacts/exercicio_jar/exercicio.jar!/com/aulaspring/exercicio/services/UsuarioService.class]
+13-04-2023 21:38:08.399 | 426  | [main] | DEBUG | o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+13-04-2023 21:38:08.400 | 427  | [main] | DEBUG | o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+13-04-2023 21:38:08.401 | 428  | [main] | DEBUG | o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+13-04-2023 21:38:08.401 | 428  | [main] | DEBUG | o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+13-04-2023 21:38:08.403 | 430  | [main] | DEBUG | o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+13-04-2023 21:38:08.405 | 432  | [main] | DEBUG | o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'exercicioApplication'
+13-04-2023 21:38:08.408 | 435  | [main] | DEBUG | o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'usuarioController'
+13-04-2023 21:38:08.416 | 443  | [main] | DEBUG | o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'usuarioService'
+13-04-2023 21:38:08.419 | 446  | [main] | WARN  | o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'usuarioController': Unsatisfied dependency expressed through field 'usuarioService': Error creating bean with name 'usuarioService': Unsatisfied dependency expressed through field 'usuarioRepository': No qualifying bean of type 'com.aulaspring.exercicio.repositories.UsuarioRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+13-04-2023 21:38:08.421 | 448  | [main] | ERROR | o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'usuarioController': Unsatisfied dependency expressed through field 'usuarioService': Error creating bean with name 'usuarioService': Unsatisfied dependency expressed through field 'usuarioRepository': No qualifying bean of type 'com.aulaspring.exercicio.repositories.UsuarioRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:482)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.aulaspring.exercicio.ExercicioApplication.main(ExercicioApplication.java:16)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'usuarioService': Unsatisfied dependency expressed through field 'usuarioRepository': No qualifying bean of type 'com.aulaspring.exercicio.repositories.UsuarioRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:482)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.aulaspring.exercicio.repositories.UsuarioRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1824)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1383)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+	... 33 common frames omitted
+13-04-2023 21:41:25.956 | 147  | [main] | INFO  | c.a.exercicio.ExercicioApplication - iniciando servidor
+13-04-2023 21:41:26.065 | 256  | [main] | INFO  | c.a.exercicio.ExercicioApplication - Starting ExercicioApplication using Java 19.0.2 with PID 12590 (/Users/elder/Documents/Santinho/spring/exercicio/out/artifacts/exercicio_jar/exercicio.jar started by elder in /Users/elder/Documents/Santinho/spring/exercicio/out/artifacts/exercicio_jar)
+13-04-2023 21:41:26.066 | 257  | [main] | INFO  | c.a.exercicio.ExercicioApplication - No active profile set, falling back to 1 default profile: "default"
+13-04-2023 21:41:26.066 | 257  | [main] | DEBUG | o.s.boot.SpringApplication - Loading source class com.aulaspring.exercicio.ExercicioApplication
+13-04-2023 21:41:26.098 | 289  | [main] | DEBUG | o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@505fc5a4
+13-04-2023 21:41:26.104 | 295  | [main] | DEBUG | o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+13-04-2023 21:41:26.127 | 318  | [main] | DEBUG | o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not a concrete top-level class: URL [jar:file:/Users/elder/Documents/Santinho/spring/exercicio/out/artifacts/exercicio_jar/exercicio.jar!/com/aulaspring/exercicio/repositories/TarefaRepository.class]
+13-04-2023 21:41:26.127 | 318  | [main] | DEBUG | o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not a concrete top-level class: URL [jar:file:/Users/elder/Documents/Santinho/spring/exercicio/out/artifacts/exercicio_jar/exercicio.jar!/com/aulaspring/exercicio/repositories/ClienteRepository.class]
+13-04-2023 21:41:26.127 | 318  | [main] | DEBUG | o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not a concrete top-level class: URL [jar:file:/Users/elder/Documents/Santinho/spring/exercicio/out/artifacts/exercicio_jar/exercicio.jar!/com/aulaspring/exercicio/repositories/UsuarioRepository.class]
+13-04-2023 21:41:26.138 | 329  | [main] | DEBUG | o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/Users/elder/Documents/Santinho/spring/exercicio/out/artifacts/exercicio_jar/exercicio.jar!/com/aulaspring/exercicio/controllers/UsuarioController.class]
+13-04-2023 21:41:26.139 | 330  | [main] | DEBUG | o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/Users/elder/Documents/Santinho/spring/exercicio/out/artifacts/exercicio_jar/exercicio.jar!/com/aulaspring/exercicio/controllers/ClienteController.class]
+13-04-2023 21:41:26.139 | 330  | [main] | DEBUG | o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/Users/elder/Documents/Santinho/spring/exercicio/out/artifacts/exercicio_jar/exercicio.jar!/com/aulaspring/exercicio/controllers/TarefaController.class]
+13-04-2023 21:41:26.140 | 331  | [main] | DEBUG | o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/Users/elder/Documents/Santinho/spring/exercicio/out/artifacts/exercicio_jar/exercicio.jar!/com/aulaspring/exercicio/services/TarefaService.class]
+13-04-2023 21:41:26.140 | 331  | [main] | DEBUG | o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/Users/elder/Documents/Santinho/spring/exercicio/out/artifacts/exercicio_jar/exercicio.jar!/com/aulaspring/exercicio/services/ClienteService.class]
+13-04-2023 21:41:26.140 | 331  | [main] | DEBUG | o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/Users/elder/Documents/Santinho/spring/exercicio/out/artifacts/exercicio_jar/exercicio.jar!/com/aulaspring/exercicio/services/UsuarioService.class]
+13-04-2023 21:41:26.214 | 405  | [main] | DEBUG | o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+13-04-2023 21:41:26.215 | 406  | [main] | DEBUG | o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+13-04-2023 21:41:26.216 | 407  | [main] | DEBUG | o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+13-04-2023 21:41:26.217 | 408  | [main] | DEBUG | o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+13-04-2023 21:41:26.219 | 410  | [main] | DEBUG | o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+13-04-2023 21:41:26.221 | 412  | [main] | DEBUG | o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'exercicioApplication'
+13-04-2023 21:41:26.223 | 414  | [main] | DEBUG | o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'usuarioController'
+13-04-2023 21:41:26.231 | 422  | [main] | DEBUG | o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'usuarioService'
+13-04-2023 21:41:26.233 | 424  | [main] | WARN  | o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'usuarioController': Unsatisfied dependency expressed through field 'usuarioService': Error creating bean with name 'usuarioService': Unsatisfied dependency expressed through field 'usuarioRepository': No qualifying bean of type 'com.aulaspring.exercicio.repositories.UsuarioRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+13-04-2023 21:41:26.236 | 427  | [main] | ERROR | o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'usuarioController': Unsatisfied dependency expressed through field 'usuarioService': Error creating bean with name 'usuarioService': Unsatisfied dependency expressed through field 'usuarioRepository': No qualifying bean of type 'com.aulaspring.exercicio.repositories.UsuarioRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:482)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.aulaspring.exercicio.ExercicioApplication.main(ExercicioApplication.java:16)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'usuarioService': Unsatisfied dependency expressed through field 'usuarioRepository': No qualifying bean of type 'com.aulaspring.exercicio.repositories.UsuarioRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:482)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.aulaspring.exercicio.repositories.UsuarioRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1824)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1383)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+	... 33 common frames omitted

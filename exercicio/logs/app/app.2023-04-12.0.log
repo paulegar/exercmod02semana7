@@ -1,0 +1,59 @@
+12-04-2023 18:09:47.342 | 420  | [restartedMain] | INFO  | c.a.exercicio.ExercicioApplication - Starting ExercicioApplication using Java 19.0.2 with PID 39529 (/Users/elder/Documents/Santinho/spring/exercicio/target/classes started by elder in /Users/elder/Documents/Santinho/spring/exercicio)
+12-04-2023 18:09:47.344 | 422  | [restartedMain] | INFO  | c.a.exercicio.ExercicioApplication - No active profile set, falling back to 1 default profile: "default"
+12-04-2023 18:09:48.909 | 1987 | [restartedMain] | INFO  | c.a.exercicio.ExercicioApplication - Started ExercicioApplication in 1.732 seconds (process running for 2.157)
+12-04-2023 18:10:30.266 | 43344 | [http-nio-8080-exec-1] | INFO  | c.a.e.services.TarefaService - Solicitado deletar a tarefa com id 2
+12-04-2023 18:10:30.441 | 43519 | [http-nio-8080-exec-1] | INFO  | c.a.e.services.TarefaService - Solicitado deletar a tarefa com id 2
+12-04-2023 18:11:12.546 | 85624 | [http-nio-8080-exec-2] | INFO  | c.a.e.services.TarefaService - Solicitado deletar a tarefa com id 2
+12-04-2023 18:11:12.572 | 85650 | [http-nio-8080-exec-2] | INFO  | c.a.e.services.TarefaService - Solicitado deletar a tarefa com id 2
+12-04-2023 18:11:32.395 | 105473 | [http-nio-8080-exec-3] | INFO  | c.a.e.services.TarefaService - Solicitado deletar a tarefa com id 2
+12-04-2023 18:11:32.401 | 105479 | [http-nio-8080-exec-3] | INFO  | c.a.e.services.TarefaService - Solicitado deletar a tarefa com id 2
+12-04-2023 18:11:34.108 | 107186 | [http-nio-8080-exec-4] | INFO  | c.a.e.services.TarefaService - Solicitado deletar a tarefa com id 2
+12-04-2023 18:11:34.112 | 107190 | [http-nio-8080-exec-4] | INFO  | c.a.e.services.TarefaService - Solicitado deletar a tarefa com id 2
+12-04-2023 18:11:45.613 | 118691 | [http-nio-8080-exec-5] | INFO  | c.a.e.services.TarefaService - Chamada de todas tarefas
+12-04-2023 21:04:45.635 | 544  | [restartedMain] | INFO  | c.a.exercicio.ExercicioApplication - Starting ExercicioApplication using Java 19.0.2 with PID 57147 (/Users/elder/Documents/Santinho/spring/exercicio/target/classes started by elder in /Users/elder/Documents/Santinho/spring/exercicio)
+12-04-2023 21:04:45.640 | 549  | [restartedMain] | INFO  | c.a.exercicio.ExercicioApplication - No active profile set, falling back to 1 default profile: "default"
+12-04-2023 21:04:47.651 | 2560 | [restartedMain] | INFO  | c.a.exercicio.ExercicioApplication - Started ExercicioApplication in 2.254 seconds (process running for 2.694)
+12-04-2023 21:10:50.765 | 365674 | [http-nio-8080-exec-2] | INFO  | c.a.e.services.UsuarioService - Chamada de todas usuarios
+12-04-2023 21:11:03.952 | 378861 | [http-nio-8080-exec-3] | INFO  | c.a.e.services.UsuarioService - Chamada de usuario por id -> com ID = 1
+12-04-2023 21:11:03.972 | 378881 | [http-nio-8080-exec-3] | WARN  | c.a.e.services.UsuarioService - Exemplo de WARN
+12-04-2023 21:11:03.972 | 378881 | [http-nio-8080-exec-3] | INFO  | c.a.e.services.UsuarioService - Objeto retornado pela consulta Usuario(id=1, nome=Elder, email=elder@elder.com)
+12-04-2023 21:11:33.151 | 408060 | [http-nio-8080-exec-4] | INFO  | c.a.e.services.UsuarioService - Solicitado atualização da usuario com id 1
+12-04-2023 21:11:33.152 | 408061 | [http-nio-8080-exec-4] | ERROR | c.a.e.services.UsuarioService - Exemplo de log ERROR
+12-04-2023 21:11:33.152 | 408061 | [http-nio-8080-exec-4] | INFO  | c.a.e.services.UsuarioService - Objeto atualizado Usuario(id=1, nome=Elder, email=elder@elder.com.br)
+12-04-2023 21:11:33.152 | 408061 | [http-nio-8080-exec-4] | INFO  | c.a.e.services.UsuarioService - Chamada de usuario por id -> com ID = 1
+12-04-2023 21:11:33.169 | 408078 | [http-nio-8080-exec-4] | WARN  | c.a.e.services.UsuarioService - Exemplo de WARN
+12-04-2023 21:11:33.169 | 408078 | [http-nio-8080-exec-4] | INFO  | c.a.e.services.UsuarioService - Objeto retornado pela consulta Usuario(id=1, nome=Elder, email=elder@elder.com)
+12-04-2023 21:11:38.262 | 413171 | [http-nio-8080-exec-5] | INFO  | c.a.e.services.UsuarioService - Chamada de todas usuarios
+12-04-2023 21:26:09.866 | 1284775 | [http-nio-8080-exec-7] | INFO  | c.a.e.services.UsuarioService - Chamada de todas usuarios
+12-04-2023 21:29:16.220 | 1471129 | [http-nio-8080-exec-1] | INFO  | c.a.e.services.UsuarioService - Solicitado atualização da usuario com id 2
+12-04-2023 21:29:16.221 | 1471130 | [http-nio-8080-exec-1] | ERROR | c.a.e.services.UsuarioService - Exemplo de log ERROR
+12-04-2023 21:29:16.223 | 1471132 | [http-nio-8080-exec-1] | INFO  | c.a.e.services.UsuarioService - Objeto atualizado Usuario(id=2, nome=Augusto, email=augusto@gmail.com)
+12-04-2023 21:29:16.223 | 1471132 | [http-nio-8080-exec-1] | INFO  | c.a.e.services.UsuarioService - Chamada de usuario por id -> com ID = 2
+12-04-2023 21:29:16.232 | 1471141 | [http-nio-8080-exec-1] | WARN  | c.a.e.services.UsuarioService - Exemplo de WARN
+12-04-2023 21:29:16.232 | 1471141 | [http-nio-8080-exec-1] | INFO  | c.a.e.services.UsuarioService - Objeto retornado pela consulta Usuario(id=2, nome=Augusto, email=augusto@hotmail.com.br)
+12-04-2023 21:30:05.538 | 1520447 | [http-nio-8080-exec-2] | INFO  | c.a.e.services.UsuarioService - Solicitado deletar a usuario com id 2
+12-04-2023 21:30:05.787 | 1520696 | [http-nio-8080-exec-2] | INFO  | c.a.e.services.UsuarioService - Localizado a usuario com id 2
+12-04-2023 21:30:05.796 | 1520705 | [http-nio-8080-exec-2] | INFO  | c.a.e.services.UsuarioService - Deletado a usuario com id 2
+12-04-2023 21:30:16.011 | 1530920 | [http-nio-8080-exec-3] | INFO  | c.a.e.services.UsuarioService - Solicitado deletar a usuario com id 2
+12-04-2023 21:30:16.035 | 1530944 | [http-nio-8080-exec-3] | INFO  | c.a.e.services.UsuarioService - Usuario com id 2 não localizado
+12-04-2023 21:30:32.209 | 550  | [restartedMain] | INFO  | c.a.exercicio.ExercicioApplication - Starting ExercicioApplication using Java 19.0.2 with PID 59829 (/Users/elder/Documents/Santinho/spring/exercicio/target/classes started by elder in /Users/elder/Documents/Santinho/spring/exercicio)
+12-04-2023 21:30:32.210 | 551  | [restartedMain] | INFO  | c.a.exercicio.ExercicioApplication - No active profile set, falling back to 1 default profile: "default"
+12-04-2023 21:30:34.203 | 2544 | [restartedMain] | INFO  | c.a.exercicio.ExercicioApplication - Started ExercicioApplication in 2.205 seconds (process running for 2.769)
+12-04-2023 21:30:38.026 | 6367 | [http-nio-8080-exec-1] | INFO  | c.a.e.services.UsuarioService - Solicitado deletar a usuario com id 2
+12-04-2023 21:30:38.264 | 6605 | [http-nio-8080-exec-1] | INFO  | c.a.e.services.UsuarioService - Usuario com id 2 não localizado
+12-04-2023 21:35:26.736 | 538  | [restartedMain] | INFO  | c.a.exercicio.ExercicioApplication - Starting ExercicioApplication using Java 19.0.2 with PID 60324 (/Users/elder/Documents/Santinho/spring/exercicio/target/classes started by elder in /Users/elder/Documents/Santinho/spring/exercicio)
+12-04-2023 21:35:26.738 | 540  | [restartedMain] | INFO  | c.a.exercicio.ExercicioApplication - No active profile set, falling back to 1 default profile: "default"
+12-04-2023 21:35:28.900 | 2702 | [restartedMain] | INFO  | c.a.exercicio.ExercicioApplication - Started ExercicioApplication in 2.395 seconds (process running for 2.851)
+12-04-2023 21:35:59.809 | 33611 | [http-nio-8080-exec-2] | INFO  | c.a.e.services.UsuarioService - Solicitado atualização da usuario com id 2
+12-04-2023 21:35:59.809 | 33611 | [http-nio-8080-exec-2] | ERROR | c.a.e.services.UsuarioService - Exemplo de log ERROR
+12-04-2023 21:35:59.809 | 33611 | [http-nio-8080-exec-2] | INFO  | c.a.e.services.UsuarioService - Objeto atualizado Usuario(id=2, nome=Augusto, email=augusto@gmail.com)
+12-04-2023 21:35:59.809 | 33611 | [http-nio-8080-exec-2] | INFO  | c.a.e.services.UsuarioService - Chamada de usuario por id -> com ID = 2
+12-04-2023 21:35:59.846 | 33648 | [http-nio-8080-exec-2] | WARN  | c.a.e.services.UsuarioService - Exemplo de WARN
+12-04-2023 21:35:59.846 | 33648 | [http-nio-8080-exec-2] | INFO  | c.a.e.services.UsuarioService - Objeto retornado pela consulta null
+12-04-2023 21:38:10.238 | 524  | [restartedMain] | INFO  | c.a.exercicio.ExercicioApplication - Starting ExercicioApplication using Java 19.0.2 with PID 60609 (/Users/elder/Documents/Santinho/spring/exercicio/target/classes started by elder in /Users/elder/Documents/Santinho/spring/exercicio)
+12-04-2023 21:38:10.240 | 526  | [restartedMain] | INFO  | c.a.exercicio.ExercicioApplication - No active profile set, falling back to 1 default profile: "default"
+12-04-2023 21:38:12.163 | 2449 | [restartedMain] | INFO  | c.a.exercicio.ExercicioApplication - Started ExercicioApplication in 2.137 seconds (process running for 2.574)
+12-04-2023 21:55:31.776 | 608  | [restartedMain] | INFO  | c.a.exercicio.ExercicioApplication - Starting ExercicioApplication using Java 19.0.2 with PID 62386 (/Users/elder/Documents/Santinho/spring/exercicio/target/classes started by elder in /Users/elder/Documents/Santinho/spring/exercicio)
+12-04-2023 21:55:31.777 | 609  | [restartedMain] | INFO  | c.a.exercicio.ExercicioApplication - No active profile set, falling back to 1 default profile: "default"
+12-04-2023 21:55:33.842 | 2674 | [restartedMain] | INFO  | c.a.exercicio.ExercicioApplication - Started ExercicioApplication in 2.319 seconds (process running for 2.83)
+12-04-2023 21:58:24.563 | 173395 | [http-nio-8080-exec-4] | INFO  | c.a.e.services.TarefaService - Chamada de todas tarefas
